@@ -2,7 +2,7 @@
 body{
   margin:0px;
   background-color: #a88397;
-  width: 100%;
+  /*width: 100%;*/
 }
 a{
   text-decoration: none;
@@ -32,7 +32,7 @@ footer > p{
 .header{
   background-color: #5D4954;
   position: fixed;
-  width: 100%;
+  /*width: 100%;*/
   z-index: 3;
 }
 .header .logo {
