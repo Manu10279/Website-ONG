@@ -197,6 +197,9 @@ top: 0;
     padding: 20px 30px;
     font-size: 24px;
   }
+  .header .menu{
+    max-height: 0;
+  }
 }
 
 /*4 PC Cards*/
