@@ -319,7 +319,7 @@
     #center > .noticia1, #center > .noticia2, #center > .noticia3{
       padding: 0px;
       background-color: #5D4954;
-      width: 447px;
+      width: 90vW;
       border-radius: 12px;
       height: auto;
     }
