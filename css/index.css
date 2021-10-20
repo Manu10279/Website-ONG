@@ -52,7 +52,7 @@ footer > p{
   list-style: none;
   overflow: hidden;
   background-color: #5D4954;
-  height:100%;
+  height:auto;
 }
 li > a{
   color: white;
