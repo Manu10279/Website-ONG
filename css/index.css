@@ -195,6 +195,9 @@ top: 0;
     padding: 20px 30px;
     font-size: 24px;
   }
+  .header ul{
+  height:auto;
+  }
 }
 
 /*4 PC Cards*/
