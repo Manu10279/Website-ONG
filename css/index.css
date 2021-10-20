@@ -92,6 +92,9 @@ li:hover{
 clear: both;
 max-height: 0;
 height: 100vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
 transition: max-height .2s ease-out;
 }
 .header .menu-icon{
