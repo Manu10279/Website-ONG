@@ -52,6 +52,7 @@ footer > p{
   list-style: none;
   overflow: hidden;
   background-color: #5D4954;
+  height:100%;
 }
 li > a{
   color: white;
@@ -194,9 +195,6 @@ top: 0;
     width: auto;
     padding: 20px 30px;
     font-size: 24px;
-  }
-  .header ul{
-  height:100%;
   }
 }
 
