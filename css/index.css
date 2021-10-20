@@ -20,6 +20,7 @@ a{
 img{
   border-radius: 12px; 
   width: 90vw;
+  align: center;
 }
 nav{
   background-color: #5D4954;
