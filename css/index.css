@@ -3,9 +3,7 @@ text-docoration:none;
 margin:0;
 padding:0;
 }
-img{
-widt:90vw;
-}
+
 
 /*1 Always*/
 body{
@@ -20,7 +18,8 @@ a{
   height: fit-content;
 }
 img{
-  border-radius: 12px;  
+  border-radius: 12px; 
+  widt:90vw;
 }
 nav{
   background-color: #5D4954;
