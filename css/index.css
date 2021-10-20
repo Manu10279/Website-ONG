@@ -169,7 +169,7 @@ top: 0;
   .header .menu {
     clear: none;
     float: right;
-    max-height: none;
+    max-height: 0;
   }
   .header .menu-icon {
     display: none;
@@ -196,9 +196,6 @@ top: 0;
     width: auto;
     padding: 20px 30px;
     font-size: 24px;
-  }
-  .header .menu{
-   height: 0px;
   }
 }
 
