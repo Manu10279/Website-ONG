@@ -24,6 +24,7 @@ footer{
   font-size: 14px;
   color: white;
   font-family: 'Poppins', sans-serif;
+  width:100%;
 }
 footer > p{
   margin: 0%;
