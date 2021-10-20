@@ -1,9 +1,15 @@
+*{
+text-docoration:none;
+margin:0;
+padding:0;
+}
+
 /*1 Always*/
 body{
   margin:0px;
   background-color: #a88397;
-  width: 100%;
 }
+
 a{
   text-decoration: none;
   color: white;
