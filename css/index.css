@@ -34,6 +34,7 @@ footer > p{
   position: fixed;
   width: 100%;
   z-index: 3;
+  height:100%;
 }
 .header .logo {
   display: block;
@@ -52,7 +53,7 @@ footer > p{
   list-style: none;
   overflow: hidden;
   background-color: #5D4954;
-  height:auto;
+  height:100%;
 }
 li > a{
   color: white;
