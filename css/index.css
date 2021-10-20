@@ -229,7 +229,7 @@ top: 0;
   }
   #center{
     display: grid;
-    grid-template-columns: 1fr 500px auto 1fr;
+    grid-template-columns: 1fr 447px auto 1fr;
     grid-template-rows: 447px 350px 380px;
     grid-template-areas:"vacio1 noticia1 noticia1 vacio2"
                         "vacio1 noticia2 noticia2 vacio2"
@@ -247,7 +247,7 @@ top: 0;
     margin-top: 97px;
     grid-area: noticia1;
     display: grid;
-    grid-template-columns: 500px auto;
+    grid-template-columns: 447px auto;
     grid-template-areas: "imagen1 texto1";
   }
   .imagen1{
@@ -266,7 +266,7 @@ top: 0;
   .noticia2{
     grid-area: noticia2;
     display: grid;
-    grid-template-columns: 500px auto;
+    grid-template-columns: 447px auto;
     grid-template-areas: "imagen2 texto2";
   }
   .imagen2{
@@ -286,7 +286,7 @@ top: 0;
     margin-bottom: 30px;
     grid-area: noticia3;
     display: grid;
-    grid-template-columns: 500px auto;
+    grid-template-columns: 447px auto;
     grid-template-areas: "imagen3 texto3";
   }
   .imagen3{
@@ -316,13 +316,13 @@ top: 0;
   #center > .noticia1, #center > .noticia2, #center > .noticia3{
     padding: 0px;
     background-color: #5D4954;
-    width: 500px;
+    width: 447px;
     border-radius: 12px;
     height: auto;
   }
   #center{
     display: grid;
-    grid-template-columns: 1fr 500px 1fr;
+    grid-template-columns: 1fr 447px 1fr;
     grid-template-rows: 447px 182px 380px 182px 350px 182px;
     grid-template-areas:"vacio1 noticia1 vacio2"
                         "vacio1 noticia1 vacio2"
@@ -341,7 +341,7 @@ top: 0;
     margin-top: 97px;
     grid-area: noticia1;
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: 447px;
     grid-template-rows: 350px 1fr;
     grid-template-areas:"imagen1"
                         "texto1";
@@ -363,7 +363,7 @@ top: 0;
   .noticia2{
     grid-area: noticia2;
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: 447px;
     grid-template-rows: 350px 1fr;
     grid-template-areas:"imagen2"
                         "texto2";
@@ -387,7 +387,7 @@ top: 0;
     margin-bottom: 30px;
     grid-area: noticia3;
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: 447px;
     grid-template-rows: 350px 1fr;
     grid-template-areas:"imagen3"
                         "texto3";
