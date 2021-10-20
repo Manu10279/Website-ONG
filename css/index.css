@@ -355,7 +355,6 @@ top: 0;
   }
 
   .noticia2{
-    margin-top: 30px;
     grid-area: noticia2;
     display: grid;
     grid-template-columns: 500px;
@@ -379,7 +378,6 @@ top: 0;
   }
 
   .noticia3{
-    margin-top: 30px;
     margin-bottom: 30px;
     grid-area: noticia3;
     display: grid;
