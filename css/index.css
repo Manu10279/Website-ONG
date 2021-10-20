@@ -196,7 +196,7 @@ top: 0;
     font-size: 24px;
   }
   .header ul{
-  height:auto;
+  height:100%;
   }
 }
 
