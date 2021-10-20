@@ -219,8 +219,7 @@ top: 0;
     display: grid;
     grid-template-columns: 1fr 500px auto 1fr;
     grid-template-rows: 67px 447px 350px 380px;
-    grid-template-areas:"header header   header   header"
-                        "vacio1 noticia1 noticia1 vacio2"
+    grid-template-areas:"vacio1 noticia1 noticia1 vacio2"
                         "vacio1 noticia2 noticia2 vacio2"
                         "vacio1 noticia3 noticia3 vacio2";
     grid-row-gap: 30px;
@@ -311,8 +310,8 @@ top: 0;
   }
   #center{
     display: grid;
-    grid-template-columns: 1fr 500px 1fr;
-    grid-template-rows: 1fr 447px 1fr 380px 1fr;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: 447px 1fr 380px 1fr;
     grid-template-areas:"vacio1 noticia1 vacio2"
                         "vacio1 noticia1 vacio2"
                         "vacio1 noticia2 vacio2"
