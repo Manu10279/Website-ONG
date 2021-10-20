@@ -189,6 +189,12 @@ top: 0;
     padding-left: 10px;
     width: 100px;
   }
+  .header .menu{
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  height: 100vh;
+  }
 }
 
 
