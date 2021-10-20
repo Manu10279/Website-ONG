@@ -1,68 +1,415 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG - Noticias</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap" rel="stylesheet">
-</head>
-<body>
-<!-- Barra de Navegación -->
-<header class="header">
-    <h1 id="logo">
-        <div><a href="index.html">ONG</a></div>
-    </h1>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-        <li><a href="noticias.html" id="Noticias">Noticias</a></li>
-        <li><a href="#">Campañas</a></li>
-        <li><a href="#">Donaciones</a></li>
-        <li><a href="#">Voluntarios</a></li>
-        <li><a href="#">Sobre Nosotros</a></li>
-        <li><a href="#">Contactos</a></li>
-    </ul>
-  </header>
-
-<div id="center">
-    <!-- Noticia 1 -->
-    <div class="vacio1"></div>
-    <div class="noticia1">
-        <div class="imagen1">
-            <img src="img/panda_rojo.png"  alt="Panda Rojo">
-        </div>
-            <p class="texto1">
-                La población del panda rojo se estima en 2.500 individuos maduros. Está en peligro de extinción, ya que sus poblaciones se encuentran amenazadas por la pérdida de hábitat, la caza furtiva y la endogamia, y están protegidos por las leyes nacionales de algunos países.
-            </p>
-    </div>
-    <div class="vacio2"></div>
-    <!-- Noticia 2 -->
-    <div class="noticia2">
-        <div class="imagen2">
-            <img src="img/panda.png" alt="Panda">
-        </div>
-        <div class="texto2">
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem dolor incidunt obcaecati asperiores fugit. Officiis, iusto asperiores earum fuga blanditiis, impedit, commodi nobis mollitia culpa eligendi omnis eaque magnam.
-            </p>
-        </div>
-    </div>
-    <!-- Noticia 3 -->
-    <div class="noticia3">
-        <div class="imagen3">
-            <img src="img/oso_polar.png" alt="Oso Polar">
-        </div>
-        <div class="texto3">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem dolor incidunt obcaecati asperiores fugit. Officiis, iusto asperiores earum fuga blanditiis, impedit, commodi nobis mollitia culpa eligendi omnis eaque magnam.
-            </p>
-        </div>  
-    </div>
-</div>
-<footer>
-    <p>Copyright © 2021 Emanuel Antonoglou</p>
-</footer>
-</body>
-</html>
+*{
+  text-docoration:none;
+  margin:0;
+  padding:0;
+  }
+  
+  
+  /*1 Always*/
+  body{
+    margin:0px;
+    background-color: #a88397;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: fit-content;
+  }
+  img{
+    border-radius: 12px; 
+    width: 90vw;
+    align-self: center;
+  }
+  nav{
+    background-color: #5D4954;
+    display: block;
+    width: auto;
+  }
+  footer{
+    background-color: #42343c;
+    height: 70px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  p {
+    display: flex;
+   font-size: 1rem;
+}
+  /*Nav Always*/
+  .header{
+    background-color: #5D4954;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  #center{
+    display: grid;
+    grid-template-columns: 500px auto 1fr;
+    grid-template-rows: 447px 350px 380px;
+    grid-template-areas:"vacio1 noticia1 noticia1 vacio2"
+                        "vacio1 noticia2 noticia2 vacio2"
+                        "vacio1 noticia3 noticia3 vacio2";
+    grid-row-gap: 30px;
+  }
+  .header .logo {
+    display: block;
+    float: left;
+    margin: 0%;
+    padding: 0px;
+    padding-left: 0px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+  }
+  .header ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    background-color: #5D4954;
+  }
+  li > a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  h1{
+    margin: 0%;
+    height: 67px;;
+    display: inline-block;
+    font-size: 45px;
+  }
+  
+  @media (max-width: 1300px) {
+    h1{
+      width: calc(100% - 64px);
+    }
+    h1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 58px;
+    }
+  }
+  
+  /*Hover*/
+  li > a:hover, #center > .noticia1:hover, #center > .noticia2:hover, #center > .noticia3:hover{
+    background-color: #42343c;
+    cursor: pointer;
+  }
+  li:hover{
+    background-color: #42343c;
+    cursor: pointer;
+  }
+  
+  /*Hamburger Menu*/
+  .header .menu{
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  }
+  .header .menu-icon{
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+  }
+  .header .menu-icon .navicon{
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: .2s ease-out;
+  width: 24px;
+  }
+  .header .menu-icon .navicon:before,.header .menu-icon .navicon:after{
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+  }
+  .header .menu-icon .navicon:before{
+  top: 7px;
+  }
+  .header .menu-icon .navicon:after{
+  top: -7px;
+  }
+  /*Hamburger Menu Animation*/
+  .header .menu-btn{
+  display: none;
+  }
+  .header .menu-btn:checked ~ .menu{
+  max-height: fit-content;
+  }
+  .header .menu-btn:checked ~ .button .menu-icon .navicon{
+  background: transparent;
+  }
+  .header .menu-btn:checked ~ .button .menu-icon .navicon:before{
+  transform: rotate(-45deg);
+  }
+  .header .menu-btn:checked ~ .button .menu-icon .navicon:after{
+  transform: rotate(45deg);
+  }
+  .header .menu-btn:checked ~ .button .menu-icon:not(.steps) .navicon:before,.header .menu-btn:checked ~ .button .menu-icon:not(.steps) .navicon:after{
+  top: 0;
+  }
+  
+  
+  /*2 Nav Mobile*/
+  @media (min-width: 1300px) {
+    .header .logo {
+    display: block;
+    padding: 10px;
+    margin: 0%;
+    padding-left: 10px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    }
+    .header ul{
+      height: 67px;
+    }
+    .header li {
+      float: left;
+      padding: 17px 30px;
+      font-size: 21px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+    h1 div{  
+      height: 67px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+      width: 100px;
+    }
+  }
+  
+  
+  /*3 Nav Menu Mobile*/
+  @media (max-width: 1300px) {
+    .header li a{
+      display: block;
+      list-style: none;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+      padding: 20px 30px;
+      font-size: 24px;
+    }
+    .header .menu{
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    height: 100vh;
+    }
+  }
+  
+  /*4 PC Cards*/
+  @media (min-width: 1300px){
+    #center > .noticia1, #center > .noticia2, #center > .noticia3{
+      padding: 0px;
+      background-color: #5D4954;
+      width: 1200px;
+      border-radius: 12px;
+      height: 350px;
+    }
+    #center{
+      display: grid;
+      grid-template-columns: 1fr 447px auto 1fr;
+      grid-template-rows: 447px 350px 380px;
+      grid-template-areas:"vacio1 noticia1 noticia1 vacio2"
+                          "vacio1 noticia2 noticia2 vacio2"
+                          "vacio1 noticia3 noticia3 vacio2";
+      grid-row-gap: 30px;
+    }
+    .vacio1{
+      grid-area: vacio1;
+    }
+    .vacio2{
+      grid-area: vacio2;
+    }
+  
+    .noticia1{
+      margin-top: 97px;
+      grid-area: noticia1;
+      display: grid;
+      grid-template-columns: 447px auto;
+      grid-template-areas: "imagen1 texto1";
+    }
+    .imagen1{
+      grid-column: imagen1;
+    }
+    .texto1{
+      grid-column: texto1;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .noticia2{
+      grid-area: noticia2;
+      display: grid;
+      grid-template-columns: 447px auto;
+      grid-template-areas: "imagen2 texto2";
+    }
+    .imagen2{
+      grid-column: imagen2;
+    }
+    .texto2{
+      grid-column: texto2;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .noticia3{
+      margin-bottom: 30px;
+      grid-area: noticia3;
+      display: grid;
+      grid-template-columns: 447px auto;
+      grid-template-areas: "imagen3 texto3";
+    }
+    .imagen3{
+      grid-column: imagen3;
+    }
+    .texto3{
+      grid-column: texto3;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .header{
+      background-color: #5D4954;
+      position: fixed;
+      width: 100%;
+      z-index: 3;
+    }
+  }
+  
+  
+  /*5 Mobile Cards*/
+  @media (max-width: 1300px){
+    #center > .noticia1, #center > .noticia2, #center > .noticia3{
+      padding: 0px;
+      background-color: #5D4954;
+      width: 90vW;
+      border-radius: 12px;
+      height: auto;
+    }
+    #center{
+      display: grid;
+      grid-template-columns: 5vW 90vw 5vW;
+      grid-template-rows: 447px 182px 380px 182px 350px 182px;
+      grid-template-areas:"vacio1 noticia1 vacio2"
+                          "vacio1 noticia1 vacio2"
+                          "vacio1 noticia2 vacio2"
+                          "vacio1 noticia2 vacio2"
+                          "vacio1 noticia3 vacio2"
+                          "vacio1 noticia3 vacio2";
+    }
+    .vacio1{
+      grid-area: vacio1;
+    }
+    .vacio2{
+      grid-area: vacio2;
+    }
+    .noticia1{
+      margin-top: 97px;
+      grid-area: noticia1;
+      display: grid;
+      grid-template-columns: 447px;
+      grid-template-rows: 350px 1fr;
+      grid-template-areas:"imagen1"
+                          "texto1";
+    }
+    .imagen1{
+      grid-column: imagen1;
+    }
+    .texto1{
+      grid-column: texto1;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 80vW;
+    }
+  
+    .noticia2{
+      grid-area: noticia2;
+      display: grid;
+      grid-template-columns: 447px;
+      grid-template-rows: 350px 1fr;
+      grid-template-areas:"imagen2"
+                          "texto2";
+    }
+    .imagen2{
+      grid-column: imagen2;
+  
+    }
+    .texto2{
+      grid-column: texto2;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .noticia3{
+      margin-bottom: 30px;
+      grid-area: noticia3;
+      display: grid;
+      grid-template-columns: 447px;
+      grid-template-rows: 350px 1fr;
+      grid-template-areas:"imagen3"
+                          "texto3";
+    }
+    .imagen3{
+      grid-column: imagen3;
+  
+    }
+    .texto3{
+      grid-column: texto3;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  
