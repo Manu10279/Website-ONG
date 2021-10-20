@@ -317,7 +317,7 @@ top: 0;
   #center{
     display: grid;
     grid-template-columns: 1fr 500px 1fr;
-    grid-template-rows: 447px 182px 380px 1fr;
+    grid-template-rows: 447px 182px 380px 182px 350px 182px;
     grid-template-areas:"vacio1 noticia1 vacio2"
                         "vacio1 noticia1 vacio2"
                         "vacio1 noticia2 vacio2"
