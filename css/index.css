@@ -326,7 +326,7 @@
     }
     #center{
       display: grid;
-      grid-template-columns: auto 90vw 5vW;
+      grid-template-columns: 1fr 90vw 1fr;
       grid-template-rows: auto 182px 380px 182px 350px 182px;
       grid-template-areas:"vacio1 noticia1 vacio2"
                           "vacio1 noticia1 vacio2"
