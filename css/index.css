@@ -327,7 +327,7 @@
     #center{
       display: grid;
       grid-template-columns: 5vW 90vw 5vW;
-      grid-template-rows: 10vh 182px 380px 182px 350px 182px;
+      grid-template-rows: auto 182px 380px 182px 350px 182px;
       grid-template-areas:"vacio1 noticia1 vacio2"
                           "vacio1 noticia1 vacio2"
                           "vacio1 noticia2 vacio2"
@@ -345,7 +345,7 @@
       margin-top: 97px;
       grid-area: noticia1;
       display: grid;
-      grid-template-columns: 10vh;
+      grid-template-columns: auto;
       grid-template-rows: 350px 1fr;
       grid-template-areas:"imagen1"
                           "texto1";
