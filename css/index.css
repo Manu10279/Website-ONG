@@ -352,6 +352,7 @@
     }
     .imagen1{
       grid-column: imagen1;
+      width: 90vw;
     }
     .texto1{
       grid-column: texto1;
