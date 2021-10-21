@@ -409,8 +409,8 @@
       display: flex;
       align-items: center;
       text-align: justify;
-      padding-left: 1fr;
-      padding-right: 1fr;
+      padding-left: 50%;
+      padding-right: 50%;
     }
   }
   
