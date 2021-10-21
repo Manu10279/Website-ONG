@@ -346,7 +346,7 @@
       grid-area: noticia1;
       display: grid;
       grid-template-columns: auto;
-      grid-template-rows: 350px 1fr;
+      grid-template-rows: auto auto;
       grid-template-areas:"imagen1"
                           "texto1";
     }
