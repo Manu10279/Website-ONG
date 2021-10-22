@@ -314,7 +314,7 @@
     }
     img{
       border-radius: 12px; 
-      
+      width: 40vw;
       align-self: center;
     }
   }
