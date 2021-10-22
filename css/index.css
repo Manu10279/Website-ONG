@@ -333,7 +333,7 @@
     #center{
       display: grid;
       grid-template-columns: 1fr 90vw 1fr;
-      grid-template-rows: auto 182px auto 182px auto 182px;
+      grid-template-rows: 300px 182px auto 182px auto 182px;
       grid-template-areas:"vacio1 noticia1 vacio2"
                           "vacio1 noticia1 vacio2"
                           "vacio1 noticia2 vacio2"
