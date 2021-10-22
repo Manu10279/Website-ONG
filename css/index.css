@@ -312,6 +312,11 @@
       width: 100%;
       z-index: 3;
     }
+    img{
+      border-radius: 12px; 
+      
+      align-self: center;
+    }
   }
   
   
