@@ -253,6 +253,7 @@
       display: grid;
       grid-template-columns: 447px auto;
       grid-template-areas: "imagen1 texto1";
+      width: 40vw;
     }
     .imagen1{
       grid-column: imagen1;
