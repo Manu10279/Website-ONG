@@ -469,7 +469,7 @@
     }
     #center{
       display: grid;
-      grid-template-columns: 1fr auto auto 1fr;
+      grid-template-columns: 1fr 447px auto 1fr;
       grid-template-rows: 312px 350px 380px;
       grid-template-areas:"vacio1 noticia1 noticia1 vacio2"
                           "vacio1 noticia2 noticia2 vacio2"
@@ -487,7 +487,7 @@
       margin-top: 97px;
       grid-area: noticia1;
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: 447px auto;
       grid-template-areas: "imagen1 texto1";
     }
     .imagen1{
