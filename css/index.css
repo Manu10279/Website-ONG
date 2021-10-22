@@ -229,7 +229,7 @@
       background-color: #5D4954;
       width: 1200px;
       border-radius: 12px;
-      height: auto;
+      height: fit-content;
     }
     #center{
       display: grid;
