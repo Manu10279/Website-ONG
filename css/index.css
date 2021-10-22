@@ -234,7 +234,7 @@
     #center{
       display: grid;
       grid-template-columns: 1fr auto auto 1fr;
-      grid-template-rows: 447px 350px 380px;
+      grid-template-rows: auto 350px 380px;
       grid-template-areas:"vacio1 noticia1 noticia1 vacio2"
                           "vacio1 noticia2 noticia2 vacio2"
                           "vacio1 noticia3 noticia3 vacio2";
