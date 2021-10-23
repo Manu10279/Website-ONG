@@ -256,6 +256,7 @@
     }
     .imagen1{
       grid-column: imagen1;
+      height: 315px;
     }
     .texto1{
       grid-column: texto1;
