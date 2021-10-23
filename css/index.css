@@ -229,7 +229,7 @@
       background-color: #5D4954;
       width: 1200px;
       border-radius: 12px;
-      height: fit-content;
+      height: 313px;;
     }
     #center{
       display: grid;
@@ -256,7 +256,7 @@
     }
     .imagen1{
       grid-column: imagen1;
-      height: 315px;
+      height: 313px;
     }
     .texto1{
       grid-column: texto1;
