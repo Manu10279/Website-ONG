@@ -385,8 +385,7 @@
       display: flex;
       align-items: center;
       text-align: justify;
-      padding-left: 3vw;
-      padding-right: 3vw;
+      padding: 2vw 3vw;
     }
   
     .noticia2{
@@ -408,8 +407,7 @@
       display: flex;
       align-items: center;
       text-align: justify;
-      padding-left: 3vw;
-      padding-right: 3vw;
+      padding: 2vw 3vw;
     }
   
     .noticia3{
@@ -432,8 +430,7 @@
       display: flex;
       align-items: center;
       text-align: justify;
-      padding-left: 3vw;
-      padding-right: 3vw;
+      padding: 2vw 3vw;
     }
   }
   
