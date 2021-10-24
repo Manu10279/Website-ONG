@@ -293,7 +293,7 @@ padding-top: 3px;
     margin-right: auto;
   }
 }
-@media (max-width: 1400px){
+@media (max-width: 1160px){
   .fisicas {
     display: grid;
     grid-template-columns: 230px;
