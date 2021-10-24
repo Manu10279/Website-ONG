@@ -91,7 +91,7 @@
   }
   
   /*Hover*/
-  li > a:hover, #center > .noticia1:hover, #center > .noticia2:hover, #center > .noticia3:hover{
+  li > a:hover, #center > a .noticia1:hover, #center > .noticia2:hover, #center > .noticia3:hover{
     background-color: #42343c;
     cursor: pointer;
   }
@@ -236,7 +236,7 @@
   
   /*4 PC Cards*/
   @media (min-width: 1300px){
-    #center > .noticia1, #center > .noticia2, #center > .noticia3{
+    #center > a .noticia1, #center > .noticia2, #center > .noticia3{
       padding: 0px;
       background-color: #5D4954;
       width: 1200px;
@@ -259,7 +259,7 @@
       grid-area: vacio2;
     }
   
-    .noticia1{
+    a .noticia1{
       margin-top: 97px;
       grid-area: noticia1;
       display: grid;
@@ -359,7 +359,7 @@
     .vacio2{
       grid-area: vacio2;
     }
-    .noticia1{
+    a .noticia1{
       margin-top: 97px;
       grid-area: noticia1;
       display: grid;
