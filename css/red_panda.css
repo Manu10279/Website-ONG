@@ -21,12 +21,12 @@ footer{
   margin-top: 26px;
 }
 p {
-  display: flex;
- font-size: 1rem;
+  font-size: 1rem;
+  text-align: center;
 }
 .video{
-  width: 39vw;
-  height: 45vh;
+  width: 679px;
+  height: 382px;
 }
 
 
@@ -325,8 +325,8 @@ padding-top: 3px;
   flex-direction: column;
 }
 .video{
-  width: 91vw;
-  height: 28vh;
+  width: 465px;
+  height: 262px;
 }
 }
 svg.svg-inline--fa.fa-twitter.fa-w-16, .svg-inline--fa.fa-facebook-f.fa-w-10, .svg-inline--fa.fa-youtube.fa-w-18, .svg-inline--fa.fa-instagram.fa-w-14{
@@ -341,5 +341,10 @@ svg.svg-inline--fa.fa-twitter.fa-w-16, .svg-inline--fa.fa-facebook-f.fa-w-10, .s
   width: 40px;
   height: 30px;
   display: inline-block;
-  
+}
+#sociales{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
