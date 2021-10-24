@@ -293,15 +293,31 @@ width: fit-content;
 }
 @media (min-width: 1400px){
  .card {
-  width: 838.8px;
-  height: fit-content;
-  background-color: #5D4954;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 15px;
-  margin: 30px 0px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    width: 838.8px;
+    height: fit-content;
+    background-color: #5D4954;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    margin: 30px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-}
+@media (max-width: 1400px){
+  .fisicas {
+    display: grid;
+    grid-template-columns: 156px;
+    grid-template-rows: repeat(3, 230px);
+    grid-template-areas:"column1 column2 column3";
+   }
+   .column1{
+     grid-area: column1;
+   }
+   .column2{
+    grid-area: column2;
+  }.column3{
+    grid-area: column3;
+  }
+ }
