@@ -25,8 +25,8 @@ p {
  font-size: 1rem;
 }
 .video{
-  width: 39vw;
-  height: 45vh;
+  width: 699px;
+  height: 393px;
 }
 
 
@@ -237,7 +237,19 @@ h1{
 .icono{
   height: 100px;
 }
-.card{width:fit-content;height: fit-content;background-color: #5D4954;color: white;font-family: 'Poppins', sans-serif;border-radius: 15px;margin: 30px 0px;display: block;margin-left: auto;margin-right: auto;/* height: 16.5%; */width: 60%;}
+.card{
+  width:fit-content;
+  height: fit-content;
+  background-color: #5D4954;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 15px;
+  margin: 30px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  }
 .card img{
 display: block;
 margin-left: auto;
@@ -325,7 +337,7 @@ padding-top: 3px;
   flex-direction: column;
 }
 .video{
-  width: 417px;
-  height: 235px;
+  width: 416px;
+  height: 234px;
 }
 }
