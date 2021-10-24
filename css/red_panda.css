@@ -248,6 +248,8 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  /* height: 16.5%; */
+  width: 60%;
 }
 .card img{
   display: block;
@@ -289,6 +291,16 @@ body{
 .bold{
     font-weight: bold;
 }
-#reproduccion{
-    width: 698.56px;
-}
+ @media (min-width: 1400px){
+   .card {
+    width: 838.8px;
+    height: fit-content;
+    background-color: #5D4954;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    margin: 30px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
