@@ -277,9 +277,10 @@ padding-top: 3px;
 }
 .row{
   display: block;
-margin-left: auto;
-margin-right: auto;
-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: fit-content;
 }
 
 .all{
@@ -308,8 +309,8 @@ width: fit-content;
 @media (max-width: 1400px){
   .fisicas {
     display: grid;
-    grid-template-columns: 156px;
-    grid-template-rows: repeat(3, 230px);
+    grid-template-columns: 230px;
+    grid-template-rows: repeat(3, 156px);
     grid-template-areas:"column1"
                         "column2"
                         "column3";
