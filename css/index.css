@@ -23,10 +23,10 @@
   }
   footer{
     background-color: #42343c;
-    height: 70px;
+    height: fit-content;
     font-size: 14px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    margin-top: 26px;
   }
   p {
     display: flex;
