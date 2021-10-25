@@ -2,15 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG - Panda Rojo</title>
-    <link rel="stylesheet" href="css/red_panda.css">
+    <title>ONG - Noticias</title>
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Barra de Navegación -->
+<!-- Barra de Navegación -->
 <header class="header">
     <h1 id="logo">
         <div><a href="index.html">ONG</a></div>
@@ -18,73 +17,47 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-        <a href="https://website-ong.netlify.app/" id="Noticias"><li>Noticias</li></a>
+        <li><a href="https://website-ong.netlify.app/" id="Noticias">Noticias</a></li>
         <li><a href="#">Campañas</a></li>
         <li><a href="#">Donaciones</a></li>
         <li><a href="#">Voluntarios</a></li>
         <li><a href="#">Sobre Nosotros</a></li>
         <li><a href="#">Contactos</a></li>
     </ul>
-</header>
+  </header>
 
-<div class="all">
+<div id="center">
+    <!-- Noticia 1 -->
     <div class="vacio1"></div>
-    <div class="center">
-        <h1 class="titulo">Panda Rojo</h1>
-        <div class="card fisicas">
-            <!-- Características físicas -->
-            <h2>Características físicas</h2>
-            <div class="row">
-                <div class="column">
-                    <img class="icono" src="img/Panda Rojo/1.png">
-                    <p>3-6 kg</p>
-                    <p class="bold">Peso al Nacer: 110-130 g</p>
-                </div>
-                <div class="column">
-                    <img class="icono" src="img/Panda Rojo/2.png">
-                    <p>51-73 cm</p>
-                </div>
-                <div class="column">
-                    <img class="icono" src="img/Panda Rojo/3.png">
-                    <p>Hasta 14 años</p>
-                </div>
+    <a href="https://website-ong.netlify.app/red_panda">
+        <div class="noticia1">
+            <div class="imagen1">
+                <img src="img/panda_rojo.png"  alt="Panda Rojo">
             </div>
+            <p class="texto1">
+                La población del panda rojo se estima en 2.500 individuos maduros. Está en peligro de extinción, ya que sus poblaciones se encuentran amenazadas por la pérdida de hábitat, la caza furtiva y la endogamia, y están protegidos por las leyes nacionales de algunos países.
+            </p>
         </div>
-        <!-- Biología -->
-        <div class="card biologicas">
-            <h2>Biología</h2>
-            <div class="row">
-                <div class="column column1">
-                    <img class="icono" src="img/Panda Rojo/4.png">
-                    <p>Habitat</p>
-                    <p class="bold">Bosque</p>
-                </div>
-                <div class="column column2">
-                    <img class="icono" src="img/Panda Rojo/5.png">
-                    <p>Vida social</p>
-                    <p class="bold">Solitaria</p>
-                </div>
-                <div class="column column3">
-                    <img class="icono" src="img/Panda Rojo/6.png">
-                    <p>Alimentación</p>
-                    <p class="bold">Omnívora</p>
-                </div>
-            </div>
-        </div>
-        <!-- Reproducción -->
-        <div class="card reproduccion">
-            <h2>Reproducción</h2>
-            <div class="row">
-                <div class="column">
-                    <img class="icono" src="img/Panda Rojo/7.png">
-                    <p>Gestación: 114-145 Días</p>
-                    <p class="bold">Cría: 1-4 (Normalmente 2)</p>
-                </div>
-            </div>
-        </div>
-        <center><iframe class="video" src="https://www.youtube.com/embed/13Kaw0mbCM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-    </div>
+    </a>
     <div class="vacio2"></div>
+    <!-- Noticia 2 -->
+    <div class="noticia2">
+        <div class="imagen2">
+            <img src="img/panda.png" alt="Panda">
+        </div>
+        <p class="texto2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem dolor incidunt obcaecati asperiores fugit. Officiis, iusto asperiores earum fuga blanditiis, impedit, commodi nobis mollitia culpa eligendi omnis eaque magnam.
+        </p>
+    </div>
+    <!-- Noticia 3 -->
+    <div class="noticia3">
+        <div class="imagen3">
+            <img src="img/oso_polar.png" alt="Oso Polar">
+        </div>
+        <p class="texto3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem dolor incidunt obcaecati asperiores fugit. Officiis, iusto asperiores earum fuga blanditiis, impedit, commodi nobis mollitia culpa eligendi omnis eaque magnam.
+        </p> 
+    </div>
 </div>
 <footer>
     <p id="seguinos">¡Seguinos!</p>
@@ -104,6 +77,5 @@
     </div> 
     <p>Copyright © 2021 Emanuel Antonoglou</p>
 </footer>
-<script src="https://kit.fontawesome.com/6072edd4dd.js" crossorigin="anonymous"></script>
 </body>
 </html>
