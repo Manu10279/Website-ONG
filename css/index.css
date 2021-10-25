@@ -29,9 +29,9 @@
     margin-top: 26px;
   }
   p {
-    display: flex;
-   font-size: 1rem;
-}
+    font-size: 1rem;
+    text-align: center;
+  }
   /*Nav Always*/
   .header{
     background-color: #5D4954;
