@@ -305,7 +305,7 @@
     .center{
         display: grid;
         grid-template-columns: 1fr 350px 1fr;
-        grid-template-rows: 96px auto 30px;
+        grid-template-rows: 96px auto 10vh;
         grid-template-areas:
             "nada1 vacio1 nada2"
             "nada1 card nada2"
