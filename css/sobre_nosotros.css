@@ -278,9 +278,11 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
-      font-size: 1em;
+      /* font-size: 1.2em; */
       text-align: justify;
       padding-right: 15px;
+      /* font-size: calc(14px + 6 * ((100vw - 320px) / 680)); */
+      font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
   .center{
   display: grid;
@@ -315,5 +317,6 @@
   }
   .texto{
       padding: 15px;
+      font-size: 18px;
   }
 } 
