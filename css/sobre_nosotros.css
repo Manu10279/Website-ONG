@@ -313,7 +313,7 @@
             "nada1 vacio1 nada2"
             "nada1 card nada2"
             "nada1 vacio2 nada2";
-        height: calc(110vh - 103px);
+        height: calc(100vh - 103px);
     }
     .texto{
         padding: 15px;
