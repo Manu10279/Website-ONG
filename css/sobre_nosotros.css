@@ -308,12 +308,12 @@
     .center{
         display: grid;
         grid-template-columns: 1fr 350px 1fr;
-        grid-template-rows: 2fr 509.7px 1fr;
+        grid-template-rows: 1.5fr 509.7px 1fr;
         grid-template-areas:
             "nada1 vacio1 nada2"
             "nada1 card nada2"
             "nada1 vacio2 nada2";
-        height: calc(100vh - 97px);
+        height: 100vh;
     }
     .texto{
         padding: 15px;
