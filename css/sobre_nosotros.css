@@ -293,17 +293,18 @@
     .card{
         grid-area: card;
         display: grid;
-        grid-template-columns: 400px;
+        grid-template-columns: 350px;
         grid-template-rows: auto auto;
-        grid-template-areas:"imagen"
-                            "texto";
+        grid-template-areas:
+            "imagen"
+            "texto";
         background-color: #5D4954;
         height: fit-content;
         border-radius: 15px;
     }
     .center{
         display: grid;
-        grid-template-columns: 20vw 400px 20vw;
+        grid-template-columns: 20vw 350px 20vw;
         grid-template-rows: 12vh auto 13.9vh;
         grid-template-areas:
             "nada1 vacio1 nada2"
