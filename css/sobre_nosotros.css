@@ -21,7 +21,10 @@
       height: fit-content;
       font-size: 14px;
       color: white;
-      /* margin-top: 26px; */
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      margin-top: 1fr;
     }
     p {
       font-size: 1rem;
@@ -305,7 +308,7 @@
     .center{
         display: grid;
         grid-template-columns: 1fr 350px 1fr;
-        grid-template-rows: 96px auto 9.9vh;
+        grid-template-rows: 96px auto auto;
         grid-template-areas:
             "nada1 vacio1 nada2"
             "nada1 card nada2"
