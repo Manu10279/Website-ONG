@@ -21,7 +21,7 @@
       height: fit-content;
       font-size: 14px;
       color: white;
-      position: absolute;
+      /* position: absolute; */
       bottom: 0;
       width: 100%;
       margin-top: 1fr;
@@ -313,7 +313,7 @@
             "nada1 vacio1 nada2"
             "nada1 card nada2"
             "nada1 vacio2 nada2";
-        height: calc(100vh - 117px);
+        height: calc(100vh - 97px);
     }
     .texto{
         padding: 15px;
