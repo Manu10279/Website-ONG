@@ -284,13 +284,13 @@
   }
   .center{
   display: grid;
-  grid-template-columns: 30px auto 30px;
-  grid-template-rows: 1fr 230px 1fr;
+  grid-template-columns: 8vw 84vw 8vw;
+  grid-template-rows: auto 230px auto;
   grid-template-areas:
   "nada1 vacio1 nada2"
   "nada1 card nada2"
   "nada1 vacio2 nada2";
-  height: 100vh;
+  height: 82.3vh;
   padding-top: 68px;
   }
 @media (max-width: 720px){
