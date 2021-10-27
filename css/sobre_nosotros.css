@@ -204,8 +204,6 @@
   
   /*3 Nav Menu Mobile*/
   @media (max-width: 1300px) {
-    /*3 Nav Menu Mobile*/
-@media (max-width: 1300px) {
   .header li a, .header a li{
     display: block;
     list-style: none;
